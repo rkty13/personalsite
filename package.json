@@ -1,0 +1,8 @@
+{
+    "name": "personalsite",
+    "main": "personalsite.js",
+    "dependencies": {
+        "express": "~4.0.0",
+        "nunjucks": "~1.3.4"   
+    }
+}

@@ -1,0 +1,431 @@
+html, body {
+    width: 100%;
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal !important;
+}
+
+ul, ol, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 96px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 1%;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 1%;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-content,
+.page-content .wrapper,
+.page-content .wrapper .home {
+    height: 100%;
+}
+
+.page-section {
+    width: 100%;
+    display: inline-block;
+}
+
+.page-section .container {
+    padding: 10%;
+}
+
+.page-section:nth-child(odd) {
+    text-align: left;
+}
+
+.page-section:nth-child(even) {
+    text-align: right;
+}
+
+.page-section .text-container {
+    max-width: 1048px;
+    margin: 0 auto;
+}
+
+.page-section .text-container h1 {
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width: 1047px) {
+    .page-section .container {
+        padding: 5% !important;
+    }
+    .page-section .text-container {
+        padding: 0 5% !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .page-section .text-container {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-section .text-container h1 {
+        font-size: 64px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .page-section .text-container {
+        padding: 0 !important;
+    }
+
+    .page-section .text-container h1 {
+        font-size: 48px;
+    }
+
+    .page-section .text-container h2 {
+        font-size: 32px;
+    }
+}
+
+/* HOME SECTION */
+.page-section#home {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.page-section#home .container {
+    padding: 5%;
+}
+
+.page-section#home .text-container {
+    padding: 5% 0;
+}
+
+.page-section#home .text-container h1 {
+    font-size: 128px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.page-section#home .text-container h1#small {
+    font-size: 48px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.page-section#home .text-container p {
+    font-size: 32px;
+    text-align: right;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@media screen and (max-width: 768px) {
+    .page-section#home .container {
+        padding: 10%;
+    }
+    
+    .page-section#home .text-container h1 {
+        font-size: 96px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .page-section#home .text-container h1 {
+        font-size: 72px;
+    }
+}
+/* END HOME SECTION */
+
+/* SKILLS SECTION */
+.page-section#skills {
+    background-color: #fff;
+}
+
+.skillset ul .skill-group {
+    display: inline-block;
+    width: 100%;
+    margin: 3% 0;
+}
+
+.skillset ul .skill-group:last-child {
+    margin-bottom: 0;
+}
+
+.skillset ul .skill-group .skill-cat {
+    font-size: 32px;
+    margin-bottom: 3%;
+}
+
+.skillset ul .skill-group li {
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    margin-bottom: 1%;
+}
+
+.skillset ul .skill-group li span {
+    font-size: 80px;
+}
+
+.skillset ul .skill-group li img {
+    height: 80px;
+}
+
+.skillset ul .skill-group li p {
+    margin-top: 3%;
+    font-size: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .skillset ul .skill-group li {
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .skillset ul .skill-group li img {
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    .skillset ul .skill-group li p {
+        font-size: 16px;
+    }
+}
+/* END SKILLS SECTION */
+
+/* PROJECT/EXPERIENCE SECTIONS */
+.page-section#projects {
+    background-color: #34495e;
+    color: #fff;
+}
+
+.page-section#experience {
+    background-color: #fff;
+}
+
+.projects li,
+.experience ul li {
+    margin: 5% 0;
+}
+
+.projects li:last-child,
+.experience ul li:last-child {
+    margin-bottom: 0;
+}
+
+.projects li img,
+.experience ul li img {
+    display: inline-block;
+    border-radius: 4px;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.projects li .text {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+
+.experience ul li .text {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin-right: 1%;
+}
+
+.projects li .text h2,
+.experience ul li .text h2 {
+    display: inline-block;
+}
+
+.projects li .text .links a,
+.experience ul li .text .links a {
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    color: #7f8c8d;
+    font-size: 24px;
+}
+
+.projects li .text .links a:hover,
+.experience ul li .text .links a:hover {
+    color: #bdc3c7;
+}
+
+.projects li .text .tags,
+.experience ul li .text .tags {
+    padding: 1% 0;
+}
+
+.projects li .text .tags div,
+.experience ul li .text .tags div {
+    display: inline-block;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 1%;
+    border: 0 rgba(0, 0, 0, 0);
+    background: #e74c3c;
+    margin-bottom: 2%;
+}
+
+.projects li .text .desc,
+.experience ul li .text .desc {
+    text-align: justify;
+}
+
+@media screen and (max-width: 991px) {
+    .projects li img,
+    .experience ul li img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects li img,
+    .experience ul li img {
+        display: none;
+    }
+
+    .projects li .text,
+    .experience ul li .text {
+        width: 90%;
+    }
+}
+/* END PROJECT/EXPERIENCE SECTIONS */
+
+/* EDUCATION SECTION */
+
+.page-section#education {
+    background-color: #D35400;
+    color: #fff;
+}
+
+.education .school {
+    padding-bottom: 3%;
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.education .school h2 span {
+    font-size: 16px;
+    color: #000;
+}
+
+.education .school .grade h3 {
+    margin: 4% 0;
+}
+
+.education .school .grade .time {
+    font-size: 16px;
+    color: #000;
+}
+
+.education .school .grade .course {
+    margin: 3% 0;
+}
+
+.education .school .grade .course span {
+    color: #000;
+}
+/* END EDUCATION SECTION */
+
+/* CONTACT SECTION */
+.page-section#contact {
+    background-color: #fff;
+}
+
+.contact h3 {
+    margin-bottom: 3%;
+}
+.contact ul li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+.contact ul li a,
+.contact ul li a:visited {
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    color: #000;
+}
+
+.contact ul li a:hover {
+    color: #7F8C8D;
+}
+
+.contact ul li a span {
+    font-size: 64px;
+}
+
+.contact ul li p {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 480px) {
+    .contact ul li a span {
+        font-size: 48px;
+    }
+
+    .contact ul li p {
+        font-size: 24px;
+    }
+}
+/* END CONTACT SECTION */
