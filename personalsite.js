@@ -11,7 +11,7 @@ nunjucks.configure('views', {
 
 app.get('/', function(req, res) {
     res.render('index.html');
-})
+});
 
 app.use(express.static('public'));
 
