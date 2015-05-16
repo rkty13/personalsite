@@ -141,6 +141,16 @@ a {
     text-align: right;
 }
 
+.page-section#home .text-container p#blog {
+    font-size: 24px;
+    text-align: left;
+}
+
+.page-section#home .text-container p#blog a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;

@@ -1,0 +1,28 @@
+{
+  "name": "personalsite",
+  "main": "personalsite.js",
+  "version": "1.0.0",
+  "authors": [
+    "Robert <me@robertkim.io>"
+  ],
+  "description": "Robert Kim's personal site",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "robertkim.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3",
+    "typed.js": "*",
+    "jquery.transit": "~0.9.12",
+    "pure": "~0.6.0"
+  }
+}
