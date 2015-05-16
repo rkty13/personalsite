@@ -2,7 +2,7 @@ const express = require('express');
 const nunjucks = require('nunjucks');
 var app = express();
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5000;
 
 nunjucks.configure('views', {
     autoescape: true,
