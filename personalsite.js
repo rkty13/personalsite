@@ -13,6 +13,8 @@ app.get('/', function(req, res) {
     res.render('index.html');
 });
 
+app.use('/', express.static('public' + '/resume.pdf'));
+
 app.use(express.static('public'));
 app.use(express.static('components'));
 
