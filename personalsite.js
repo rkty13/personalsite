@@ -13,6 +13,10 @@ app.get('/', function(req, res) {
     res.render('index.html');
 });
 
+app.get('/easy', function(req, res) {
+    res.render('easy.html');
+});
+
 app.use('/', express.static('public' + '/resume.pdf'));
 
 app.use(express.static('public'));
