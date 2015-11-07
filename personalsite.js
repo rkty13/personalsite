@@ -14,6 +14,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/easy', function(req, res) {
+    console.log(req.param('cookie'));
     res.render('easy.html');
 });
 
