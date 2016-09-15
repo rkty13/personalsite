@@ -29,12 +29,13 @@
             });
         });
         $('span#typed').typed({
-            strings: ["I am a programmer.", 
-                        "I am a student.", 
-                        "I am a hacker.", 
-                        "I like music.", 
+            strings: ["I am a programmer.",
+                        "I am a student.",
+                        "I am a hacker.",
+                        "I play clarinet.",
+                        "I like music.",
                         "I like to eat food.",
-                        "I enjoy photography."],
+                        ],
             typeSpeed: 40,
             loop: true,
             backSpeed: 20,
