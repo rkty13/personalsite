@@ -33,6 +33,7 @@
                         "I am a student.",
                         "I am a hacker.",
                         "I play clarinet.",
+                        "I am self-motivated.",
                         "I like music.",
                         "I like to eat food.",
                         ],
