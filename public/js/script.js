@@ -35,6 +35,7 @@
                         "I play clarinet.",
                         "I am self-motivated.",
                         "I like music.",
+                        "I love to learn.",
                         "I like to eat food.",
                         ],
             typeSpeed: 40,
